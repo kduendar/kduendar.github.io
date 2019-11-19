@@ -1,14 +1,21 @@
 body {
   background-color: #F9F9E7;
   font-family: Helvetica, Arial, sans-serif;
-}
+  }
+
+::selection {
+  color: #fff;
+  background: #001109;
+  }
+
 h1 {
   color: #000;
-}
+  }
+
 p {
   font-size: 12px;
   padding: 2px 3px 3px 3px;
   text-decoration: none;
   color: #333;
   line-height: 185%;
-}
+  }
