@@ -7,6 +7,8 @@ body {
   background-color: #fff;
   font-family: Helvetica, Arial, sans-serif;
   line-height: 150%;
+  padding-top: 70px;
+  padding-left: 55px;
 }
 
 /* TEXT STYLES */
@@ -28,7 +30,7 @@ p {
 
 a {
   color: #000;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 a:active {
