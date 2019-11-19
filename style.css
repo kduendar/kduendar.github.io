@@ -1,7 +1,7 @@
 /* GENERAL STYLE */
 /* banana #F9F9E7 */
 /* sage-olive #597A62 */
-
+/* dark-green #13281E */
 
 body {
   background-color: #fff;
@@ -32,11 +32,11 @@ a {
 }
 
 a:active {
-  color: #000;
+  color: #F5FFBC;
 }
 
 a:hover {
-    background: #000;
+    background: #13281E;
     color: #fff;
 }
 
