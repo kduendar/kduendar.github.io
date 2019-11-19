@@ -1,8 +1,12 @@
 /* GENERAL STYLE */
+/* banana #F9F9E7 */
+/* sage-olive #597A62 */
+
 
 body {
-  background-color: #F9F9E7;
+  background-color: #fff;
   font-family: Helvetica, Arial, sans-serif;
+  line-height: 150%;
 }
 
 /* TEXT STYLES */
@@ -20,16 +24,15 @@ p {
   color: #333;
   padding: 2px 3px 3px 3px;
   text-decoration: none;
-  line-height: 185%;
 }
 
 a {
-  color: #222;
-  text-decoration: none;
+  color: #000;
+  text-decoration: underline;
 }
 
 a:active {
-    color: #000;
+  color: #000;
 }
 
 a:hover {
