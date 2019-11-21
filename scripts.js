@@ -1,4 +1,4 @@
-dragElement(document.getElementByClassName("thumbnail"));
+dragElement(document.getElementById("image1"));
 
 function dragElement(elmnt) {
   var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
