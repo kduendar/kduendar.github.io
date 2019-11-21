@@ -52,6 +52,11 @@ body {
 	filter: grayscale(100%);
 }
 
+#image1 {
+  position: absolute;
+}
+
+
 /* Tried to do a decolorize animation when mouse leaves, but css doesn't support "onmouseleave"
 .thumbnail:nohover {
     animation-name: decolorize;
