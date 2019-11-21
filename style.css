@@ -26,7 +26,6 @@ body {
   padding: 0px;
   line-height: 185%;
   z-index: 12;
-  line-height: 185%;  
 }
 
 #content {
@@ -58,7 +57,7 @@ a {
   text-decoration: none;
 }
 
-menu a {
+#menu a {
   padding: 2px 3px 3px 3px;
 }
 
