@@ -1,6 +1,15 @@
 dragElement(document.getElementById("th_1"));
 dragElement(document.getElementById("th_2"));
 dragElement(document.getElementById("th_3"));
+dragElement(document.getElementById("th_4"));
+dragElement(document.getElementById("th_5"));
+dragElement(document.getElementById("th_6"));
+dragElement(document.getElementById("th_7"));
+dragElement(document.getElementById("th_8"));
+dragElement(document.getElementById("th_9"));
+dragElement(document.getElementById("th_10"));
+dragElement(document.getElementById("th_11"));
+dragElement(document.getElementById("th_12"));
 
 function dragElement(elmnt) {
   var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
