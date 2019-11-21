@@ -54,6 +54,7 @@ body {
 
 #image1 {
   position: absolute;
+  cursor: move;
 }
 
 
