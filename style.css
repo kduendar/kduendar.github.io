@@ -9,7 +9,6 @@ body {
   line-height: 150%;
   font-size: 12px;
   color: #333;
-  padding: 2px 3px 3px 3px;
   text-decoration: none;
 }
 
@@ -29,7 +28,6 @@ body {
   z-index: 12;
   line-height: 185%;  
 }
-
 
 #content {
   position: absolute;
@@ -57,6 +55,15 @@ p {
 
 a {
   color: #000;
+  text-decoration: none;
+}
+
+menu a {
+  padding: 2px 3px 3px 3px;
+}
+
+a.junior {
+  color: #555;
   text-decoration: none;
 }
 
