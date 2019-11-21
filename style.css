@@ -51,6 +51,17 @@ body {
 }
 
 
+/* ANIMATIONS */
+
+@keyframes colorize{
+  0% {
+    filter: grayscale(100%);
+  }
+  100% {
+    filter: none;
+  }
+}
+
 /* TEXT STYLES */
 
 h1 {
