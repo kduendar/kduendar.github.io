@@ -77,6 +77,30 @@ body {
   position: absolute;
 }
 
+#th_7 {
+  position: absolute;
+}
+
+#th_8 {
+  position: absolute;
+}
+
+#th_9 {
+  position: absolute;
+}
+
+#th_10 {
+  position: absolute;
+}
+
+#th_11 {
+  position: absolute;
+}
+
+#th_12 {
+  position: absolute;
+}
+
 /* Tried to do a decolorize animation when mouse leaves, but css doesn't support "onmouseleave"
 .thumbnail:nohover {
     animation-name: decolorize;
