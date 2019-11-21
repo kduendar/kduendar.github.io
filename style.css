@@ -46,9 +46,17 @@ body {
 }
 
 .thumbnail:nohover {
-	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    animation-name: decolorize;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+/*
+.thumbnail:nohover {
+	-webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
 }
+*/
 
 
 /* ANIMATIONS */
@@ -56,11 +64,25 @@ body {
 @keyframes colorize{
   0% {
     filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
   }
   100% {
     filter: none;
+    -webkit-filter: none;
   }
 }
+
+@keyframes decolorize{
+  0% {
+    filter: none;
+    -webkit-filter: none;
+  }
+  100% {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+  }
+}
+
 
 /* TEXT STYLES */
 
