@@ -36,25 +36,32 @@ body {
 /* IMAGES */
 
 .thumbnail {
-	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-	filter: grayscale(100%);
-	cursor: move;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
 
 .thumbnail:hover {
-    animation-name: colorize;
-    animation-duration: 2s;
-    animation-fill-mode: forwards;
+  animation-name: colorize;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
 }
 
 .thumbnail:nohover {
-	-webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 
-#image1 {
+#th_1 {
   position: absolute;
   cursor: move;
+}
+
+#th_2 {
+  position: absolute;
+}
+
+#th_3 {
+  position: absolute;
 }
 
 
