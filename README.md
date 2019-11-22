@@ -12,3 +12,5 @@ https://www.w3schools.com/howto/howto_js_draggable.asp
 
 Feel free to inspect or use the code.
 I would appreciate if you don't copy the design completely, but if you really like it you can go for it.
+
+Images on my website are my own work. If you want to use any of the images, please contact me.
