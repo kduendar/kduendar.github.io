@@ -1,6 +1,4 @@
-# kdundar.github.io
-
-Personal Website
+# Personal Website
 
 My website uses 3 different domainnames and services.
 - I have coded the homepage using HTML, CSS, and Java on GitHub.
