@@ -145,15 +145,15 @@ h1 {
   line-height: 185%;
 }
 
-.page_title {
-  font-family: 'Noto Serif', Georgia, Times, serif;
-}
-
 p {
   font-size: 12px;
   color: #333;
   padding: 2px 3px 3px 3px;
   text-decoration: none;
+}
+
+p.page_title {
+  font-family: 'Noto Serif', Georgia, Times, serif;
 }
 
 a {
