@@ -5,7 +5,7 @@
 
 body {
   background-color: #fff;
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   line-height: 150%;
   font-size: 12px;
   color: #333;
@@ -153,7 +153,7 @@ p {
 }
 
 p.page_title {
-  font-family: 'Noto Serif', Georgia, Times, serif;
+  font-family: Georgia, Times, serif;
 }
 
 a {
