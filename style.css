@@ -138,11 +138,10 @@ body {
 /* TEXT STYLES */
 
 h1 {
-  font-size: 14px;
-  color: #555;
-  padding: 2px 3px 3px 3px;
-  text-decoration: none;
-  line-height: 185%;
+  color: #111;
+  font-family: Georgia, Times, serif;
+  font-size: 24px;
+  padding: 0 0 30px 0;
 }
 
 p {
@@ -150,10 +149,6 @@ p {
   color: #333;
   padding: 2px 3px 3px 3px;
   text-decoration: none;
-}
-
-p.page_title {
-  font-family: Georgia, Times, serif;
 }
 
 a {
