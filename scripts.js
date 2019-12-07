@@ -77,11 +77,11 @@ function dragElement(elmnt) {
 
 
 function randomNr1(){
-   var x = Math.floor((Math.random() * 560) + 40); //random number between 300 and 800
+   var x = Math.floor((Math.random() * 600) + 0); //random number between 0 and 600
    return x;
 }
 
 function randomNr2(){
-   var x = Math.floor((Math.random() * 660) + 40); //random number between 300 and 800
+   var x = Math.floor((Math.random() * 760) + 40); //random number between 40 and 800
    return x;
 }
