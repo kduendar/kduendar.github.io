@@ -82,6 +82,6 @@ function randomNr1(){
 }
 
 function randomNr2(){
-   var x = Math.floor((Math.random() * 760) + 40); //random number between 40 and 800
+   var x = Math.floor((Math.random() * 710) + 90); //random number between 90 and 800
    return x;
 }
