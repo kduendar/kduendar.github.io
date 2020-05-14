@@ -102,6 +102,11 @@ body {
   position: absolute;
 }
 
+#profile_pic {
+  max-width: 450px;
+  height: auto; 
+}
+
 /* Tried to do a decolorize animation when mouse leaves, but css doesn't support "onmouseleave"
 .thumbnail:nohover {
     animation-name: decolorize;
