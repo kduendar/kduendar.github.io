@@ -114,27 +114,32 @@ function randomNr2(){
 }
 
 window.onload = function() {
+	var shuffleButton = document.getElementById("shuffle");
 	var orderButton = document.getElementById("order");
+	var colorizeButton = document.getElementById("colorize");
+	var resetButton = document.getElementById("reset");
+	
+	shuffleButton.onclick = function() {
+		shuffleThumbnails()
+		return false;
+	}
 	
 	orderButton.onclick = function() {
 		orderThumbnails()
 		return false;
 	}
-
-	var thumbnailClass = document.getElementsByClassName("thumbnail");
-	var colorizeButton = document.getElementById("colorize"); 
-	var resetButton = document.getElementById("reset"); 
 	
 	colorizeButton.onclick = function() {
-		thumbnailClass.setAttribute("style", "-webkit-filter:grayscale(0%)");
-		thumbnailClass.setAttribute("style", "filter:grayscale(0%)");
-		//thumbnails.style.filter: "grayscale(0%)";
+		document.getElementsByClassName("thumbnail").style.filter: "grayscale(0%)";
+		document.getElementsByClassName("thumbnail").setAttribute("style", "-webkit-filter:grayscale(0%)");
+		document.getElementsByClassName("thumbnail").setAttribute("style", "filter:grayscale(0%)");
 		return false;
 	}
+	
 	resetButton.onclick = function() {
-		thumbnailClass.setAttribute("style", "-webkit-filter:grayscale(100%)");
-		thumbnailClass.setAttribute("style", "filter:grayscale(100%)");
-		//thumbnails.style.filter: "grayscale(0%)";
+		document.getElementsByClassName("thumbnail").style.filter: "grayscale(0%)";
+		document.getElementsByClassName("thumbnail").setAttribute("style", "-webkit-filter:grayscale(100%)");
+		document.getElementsByClassName("thumbnail").setAttribute("style", "filter:grayscale(100%)");
 		return false;
 	}
 }
