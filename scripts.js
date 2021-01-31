@@ -1,15 +1,16 @@
-dragElement(document.getElementById("th_1"));
-dragElement(document.getElementById("th_2"));
-dragElement(document.getElementById("th_3"));
-dragElement(document.getElementById("th_4"));
-dragElement(document.getElementById("th_5"));
-dragElement(document.getElementById("th_6"));
-dragElement(document.getElementById("th_7"));
-dragElement(document.getElementById("th_8"));
-dragElement(document.getElementById("th_9"));
-dragElement(document.getElementById("th_10"));
-dragElement(document.getElementById("th_11"));
-dragElement(document.getElementById("th_12"));
+let thumbnails = [document.getElementById("th_1"), document.getElementById("th_2"), document.getElementById("th_3"), document.getElementById("th_4"), document.getElementById("th_5"), document.getElementById("th_6"), document.getElementById("th_7"), document.getElementById("th_8"), document.getElementById("th_9"), document.getElementById("th_10"), document.getElementById("th_11"), document.getElementById("th_12")]
+
+var i;
+for (i = 0; i < thumbnails.length; i++) {
+    
+    dragElement(thumbnails[i]);
+    
+    thumbnails[i].onmouseover = function(){
+        this.setAttribute("style", "animation-name: colorize");
+        this.setAttribute("style", "animation-duration: 2s");
+        this.setAttribute("style", "animation-fill-mode: forwards");
+    }
+}
 
 shuffleThumbnails();
 
@@ -41,12 +42,33 @@ function shuffleThumbnails() {
     return false;
 }
  
-//colorizeButton.onclick = function() {
-// document.getElementById('th_1').style.animation-name = "colorize";
-// document.getElementById('th_1').style.animation-duration= "2s";
-// document.getElementById('th_1').style.animation-fill-mode: "forwards";
-// return false;
-//}
+function orderThumbnails() {
+    document.getElementById('th_1').style.top = 65 + 'px';
+    document.getElementById('th_1').style.left = 210 + 'px';
+    document.getElementById('th_2').style.top = 65 + 'px';
+    document.getElementById('th_2').style.left = 430 + 'px';
+    document.getElementById('th_3').style.top = 65 + 'px';
+    document.getElementById('th_3').style.left = 650 + 'px';
+    document.getElementById('th_4').style.top = 65 + 'px';
+    document.getElementById('th_4').style.left = 870 + 'px';
+    document.getElementById('th_5').style.top = 219 + 'px';
+    document.getElementById('th_5').style.left = 210 + 'px';
+    document.getElementById('th_6').style.top = 219 + 'px';
+    document.getElementById('th_6').style.left = 430 + 'px';
+    document.getElementById('th_7').style.top = 219 + 'px';
+    document.getElementById('th_7').style.left = 650 + 'px';
+    document.getElementById('th_8').style.top = 219 + 'px';
+    document.getElementById('th_8').style.left = 870 + 'px';
+    document.getElementById('th_9').style.top = 373 + 'px';
+    document.getElementById('th_9').style.left = 210 + 'px';
+    document.getElementById('th_10').style.top = 373 + 'px';
+    document.getElementById('th_10').style.left = 430 + 'px';
+    document.getElementById('th_11').style.top = 373 + 'px';
+    document.getElementById('th_11').style.left = 650 + 'px';
+    document.getElementById('th_12').style.top = 373 + 'px';
+    document.getElementById('th_12').style.left = 870 + 'px';
+    return false;
+}
 
 function dragElement(elmnt) {
   var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
@@ -99,35 +121,19 @@ function randomNr2(){
 
 window.onload = function() {
   var orderButton = document.getElementById("order");
-  //var shuffleButton = document.getElementById("shuffle");
-  //var colorizeButton = document.getElementById("colorize");
   orderButton.onclick = function() {
-    document.getElementById('th_1').style.top = 65 + 'px';
-    document.getElementById('th_1').style.left = 210 + 'px';
-    document.getElementById('th_2').style.top = 65 + 'px';
-    document.getElementById('th_2').style.left = 430 + 'px';
-    document.getElementById('th_3').style.top = 65 + 'px';
-    document.getElementById('th_3').style.left = 650 + 'px';
-    document.getElementById('th_4').style.top = 65 + 'px';
-    document.getElementById('th_4').style.left = 870 + 'px';
-    document.getElementById('th_5').style.top = 219 + 'px';
-    document.getElementById('th_5').style.left = 210 + 'px';
-    document.getElementById('th_6').style.top = 219 + 'px';
-    document.getElementById('th_6').style.left = 430 + 'px';
-    document.getElementById('th_7').style.top = 219 + 'px';
-    document.getElementById('th_7').style.left = 650 + 'px';
-    document.getElementById('th_8').style.top = 219 + 'px';
-    document.getElementById('th_8').style.left = 870 + 'px';
-    document.getElementById('th_9').style.top = 373 + 'px';
-    document.getElementById('th_9').style.left = 210 + 'px';
-    document.getElementById('th_10').style.top = 373 + 'px';
-    document.getElementById('th_10').style.left = 430 + 'px';
-    document.getElementById('th_11').style.top = 373 + 'px';
-    document.getElementById('th_11').style.left = 650 + 'px';
-    document.getElementById('th_12').style.top = 373 + 'px';
-    document.getElementById('th_12').style.left = 870 + 'px';
+    orderThumbnails()
     return false;
   }
+  
+  var thumbnailClass = document.getElementsByClassName("thumbnail");
+  var colorizeButton = document.getElementById("colorize"); 
+  colorizeButton.onclick = function() {
+    thumbnailClass.setAttribute("style", "-webkit-filter:grayscale(0%)");
+    thumbnailClass.setAttribute("style", "filter:grayscale(0%)");
+    //thumbnails.style.filter: "grayscale(0%)";
+    return false;
+    }
 }
 
 
