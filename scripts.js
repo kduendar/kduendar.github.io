@@ -115,19 +115,22 @@ function randomNr2(){
 
 //var shuffleButton = document.getElementById("shuffle");
 var orderButton = document.getElementById("order");
-var colorizeButton = document.getElementById("colorize");
-var resetButton = document.getElementById("reset");
+//var colorizeButton = document.getElementById("colorize");
+//var resetButton = document.getElementById("reset");
 
-/*shuffleButton.onclick = function() {
+/*
+shuffleButton.onclick = function() {
 	shuffleThumbnails()
 	return false;
-}*/
+}
+*/
 
 orderButton.onclick = function() {
 	orderThumbnails()
 	return false;
 }
 
+/*
 colorizeButton.onclick = function() {
 	document.getElementsByClassName("thumbnail").style.filter: "grayscale(0%)";
 	document.getElementsByClassName("thumbnail").setAttribute("style", "-webkit-filter:grayscale(0%)");
@@ -141,4 +144,4 @@ resetButton.onclick = function() {
 	document.getElementsByClassName("thumbnail").setAttribute("style", "filter:grayscale(100%)");
 	return false;
 }
-
+*/
