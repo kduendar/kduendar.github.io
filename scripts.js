@@ -103,12 +103,19 @@ window.onload = function() {
   
   var thumbnailClass = document.getElementsByClassName("thumbnail");
   var colorizeButton = document.getElementById("colorize"); 
+  var resetButton = document.getElementById("reset"); 
   colorizeButton.onclick = function() {
     thumbnailClass.setAttribute("style", "-webkit-filter:grayscale(0%)");
     thumbnailClass.setAttribute("style", "filter:grayscale(0%)");
     //thumbnails.style.filter: "grayscale(0%)";
     return false;
-    }
+  }
+  resetButton.onclick = function() {
+    thumbnailClass.setAttribute("style", "-webkit-filter:grayscale(100%)");
+    thumbnailClass.setAttribute("style", "filter:grayscale(100%)");
+    //thumbnails.style.filter: "grayscale(0%)";
+    return false;
+  }
 }
 
 
