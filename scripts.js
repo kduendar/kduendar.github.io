@@ -37,29 +37,29 @@ function shuffleThumbnails() {
 
 function orderThumbnails() {
 	document.getElementById('th_1').style.top = 65 + 'px';
-	document.getElementById('th_1').style.left = 210 + 'px';
+	document.getElementById('th_1').style.left = 190 + 'px';
 	document.getElementById('th_2').style.top = 65 + 'px';
-	document.getElementById('th_2').style.left = 430 + 'px';
+	document.getElementById('th_2').style.left = 410 + 'px';
 	document.getElementById('th_3').style.top = 65 + 'px';
-	document.getElementById('th_3').style.left = 650 + 'px';
+	document.getElementById('th_3').style.left = 630 + 'px';
 	document.getElementById('th_4').style.top = 65 + 'px';
-	document.getElementById('th_4').style.left = 870 + 'px';
+	document.getElementById('th_4').style.left = 850 + 'px';
 	document.getElementById('th_5').style.top = 219 + 'px';
-	document.getElementById('th_5').style.left = 210 + 'px';
+	document.getElementById('th_5').style.left = 190 + 'px';
 	document.getElementById('th_6').style.top = 219 + 'px';
-	document.getElementById('th_6').style.left = 430 + 'px';
+	document.getElementById('th_6').style.left = 410 + 'px';
 	document.getElementById('th_7').style.top = 219 + 'px';
-	document.getElementById('th_7').style.left = 650 + 'px';
+	document.getElementById('th_7').style.left = 630 + 'px';
 	document.getElementById('th_8').style.top = 219 + 'px';
-	document.getElementById('th_8').style.left = 870 + 'px';
+	document.getElementById('th_8').style.left = 850 + 'px';
 	document.getElementById('th_9').style.top = 373 + 'px';
-	document.getElementById('th_9').style.left = 210 + 'px';
+	document.getElementById('th_9').style.left = 190 + 'px';
 	document.getElementById('th_10').style.top = 373 + 'px';
-	document.getElementById('th_10').style.left = 430 + 'px';
+	document.getElementById('th_10').style.left = 410 + 'px';
 	document.getElementById('th_11').style.top = 373 + 'px';
-	document.getElementById('th_11').style.left = 650 + 'px';
+	document.getElementById('th_11').style.left = 630 + 'px';
 	document.getElementById('th_12').style.top = 373 + 'px';
-	document.getElementById('th_12').style.left = 870 + 'px';
+	document.getElementById('th_12').style.left = 850 + 'px';
 	return false;
 }
 
