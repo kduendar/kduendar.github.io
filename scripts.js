@@ -113,35 +113,32 @@ function randomNr2(){
 	return x;
 }
 
-window.onload = function() {
-	var shuffleButton = document.getElementById("shuffle");
-	var orderButton = document.getElementById("order");
-	var colorizeButton = document.getElementById("colorize");
-	var resetButton = document.getElementById("reset");
-	
-	shuffleButton.onclick = function() {
-		shuffleThumbnails()
-		return false;
-	}
-	
-	orderButton.onclick = function() {
-		orderThumbnails()
-		return false;
-	}
-	
-	colorizeButton.onclick = function() {
-		document.getElementsByClassName("thumbnail").style.filter: "grayscale(0%)";
-		document.getElementsByClassName("thumbnail").setAttribute("style", "-webkit-filter:grayscale(0%)");
-		document.getElementsByClassName("thumbnail").setAttribute("style", "filter:grayscale(0%)");
-		return false;
-	}
-	
-	resetButton.onclick = function() {
-		document.getElementsByClassName("thumbnail").style.filter: "grayscale(0%)";
-		document.getElementsByClassName("thumbnail").setAttribute("style", "-webkit-filter:grayscale(100%)");
-		document.getElementsByClassName("thumbnail").setAttribute("style", "filter:grayscale(100%)");
-		return false;
-	}
+var shuffleButton = document.getElementById("shuffle");
+var orderButton = document.getElementById("order");
+var colorizeButton = document.getElementById("colorize");
+var resetButton = document.getElementById("reset");
+
+shuffleButton.onclick = function() {
+	shuffleThumbnails()
+	return false;
 }
 
+orderButton.onclick = function() {
+	orderThumbnails()
+	return false;
+}
+
+colorizeButton.onclick = function() {
+	document.getElementsByClassName("thumbnail").style.filter: "grayscale(0%)";
+	document.getElementsByClassName("thumbnail").setAttribute("style", "-webkit-filter:grayscale(0%)");
+	document.getElementsByClassName("thumbnail").setAttribute("style", "filter:grayscale(0%)");
+	return false;
+}
+
+resetButton.onclick = function() {
+	document.getElementsByClassName("thumbnail").style.filter: "grayscale(0%)";
+	document.getElementsByClassName("thumbnail").setAttribute("style", "-webkit-filter:grayscale(100%)");
+	document.getElementsByClassName("thumbnail").setAttribute("style", "filter:grayscale(100%)");
+	return false;
+}
 
