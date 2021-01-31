@@ -29,6 +29,16 @@ body {
   z-index: 12;
 }
 
+#controls {
+  position: fixed;
+  top: 350px;
+  left: 55px;
+  margin: 0px;
+  padding: 0px;
+  line-height: 185%;
+  z-index: 12;
+}
+
 #content {
   position: absolute;
   padding: 70px 0 0 270px;
@@ -169,6 +179,11 @@ a {
 }
 
 #menu a {
+  font-family: Helvetica, Arial, sans-serif;
+  padding: 2px 3px 3px 3px;
+}
+
+#controls a {
   font-family: Helvetica, Arial, sans-serif;
   padding: 2px 3px 3px 3px;
 }
