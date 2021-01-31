@@ -2,76 +2,51 @@ let thumbnails = [document.getElementById("th_1"), document.getElementById("th_2
 
 var i;
 for (i = 0; i < thumbnails.length; i++) {
-    
     dragElement(thumbnails[i]);
-    
-    thumbnails[i].onmouseover = function(){
-        this.setAttribute("style", "animation-name: colorize");
-        this.setAttribute("style", "animation-duration: 2s");
-        this.setAttribute("style", "animation-fill-mode: forwards");
-    }
 }
 
 shuffleThumbnails();
 
 function shuffleThumbnails() {
-    document.getElementById('th_1').style.top = randomNr1() + 'px';
-    document.getElementById('th_1').style.left = randomNr2() + 'px';
-    document.getElementById('th_2').style.top = randomNr1() + 'px';
-    document.getElementById('th_2').style.left = randomNr2() + 'px';
-    document.getElementById('th_3').style.top = randomNr1() + 'px';
-    document.getElementById('th_3').style.left = randomNr2() + 'px';
-    document.getElementById('th_4').style.top = randomNr1() + 'px';
-    document.getElementById('th_4').style.left = randomNr2() + 'px';
-    document.getElementById('th_5').style.top = randomNr1() + 'px';
-    document.getElementById('th_5').style.left = randomNr2() + 'px';
-    document.getElementById('th_6').style.top = randomNr1() + 'px';
-    document.getElementById('th_6').style.left = randomNr2() + 'px';
-    document.getElementById('th_7').style.top = randomNr1() + 'px';
-    document.getElementById('th_7').style.left = randomNr2() + 'px';
-    document.getElementById('th_8').style.top = randomNr1() + 'px';
-    document.getElementById('th_8').style.left = randomNr2() + 'px';
-    document.getElementById('th_9').style.top = randomNr1() + 'px';
-    document.getElementById('th_9').style.left = randomNr2() + 'px';
-    document.getElementById('th_10').style.top = randomNr1() + 'px';
-    document.getElementById('th_10').style.left = randomNr2() + 'px';
-    document.getElementById('th_11').style.top = randomNr1() + 'px';
-    document.getElementById('th_11').style.left = randomNr2() + 'px';
-    document.getElementById('th_12').style.top = randomNr1() + 'px';
-    document.getElementById('th_12').style.left = randomNr2() + 'px';
+    var j;
+    for (j = 0; j < thumbnails.length; j++) {
+        thumbnails[j].style.top = randomNr1() + 'px';
+        thumbnails[j].style.left = randomNr2() + 'px';
+    }
     return false;
 }
  
 function orderThumbnails() {
-    document.getElementById('th_1').style.top = 65 + 'px';
-    document.getElementById('th_1').style.left = 210 + 'px';
-    document.getElementById('th_2').style.top = 65 + 'px';
-    document.getElementById('th_2').style.left = 430 + 'px';
-    document.getElementById('th_3').style.top = 65 + 'px';
-    document.getElementById('th_3').style.left = 650 + 'px';
-    document.getElementById('th_4').style.top = 65 + 'px';
-    document.getElementById('th_4').style.left = 870 + 'px';
-    document.getElementById('th_5').style.top = 219 + 'px';
-    document.getElementById('th_5').style.left = 210 + 'px';
-    document.getElementById('th_6').style.top = 219 + 'px';
-    document.getElementById('th_6').style.left = 430 + 'px';
-    document.getElementById('th_7').style.top = 219 + 'px';
-    document.getElementById('th_7').style.left = 650 + 'px';
-    document.getElementById('th_8').style.top = 219 + 'px';
-    document.getElementById('th_8').style.left = 870 + 'px';
-    document.getElementById('th_9').style.top = 373 + 'px';
-    document.getElementById('th_9').style.left = 210 + 'px';
-    document.getElementById('th_10').style.top = 373 + 'px';
-    document.getElementById('th_10').style.left = 430 + 'px';
-    document.getElementById('th_11').style.top = 373 + 'px';
-    document.getElementById('th_11').style.left = 650 + 'px';
-    document.getElementById('th_12').style.top = 373 + 'px';
-    document.getElementById('th_12').style.left = 870 + 'px';
+	thumbnails[0].style.top = 65 + 'px';
+    thumbnails[0]style.left = 210 + 'px';
+    thumbnails[1]style.top = 65 + 'px';
+    thumbnails[1]style.left = 430 + 'px';
+    thumbnails[2]style.top = 65 + 'px';
+    thumbnails[2]style.left = 650 + 'px';
+    thumbnails[3]style.top = 65 + 'px';
+    thumbnails[3]style.left = 870 + 'px';
+    thumbnails[4]style.top = 219 + 'px';
+    thumbnails[4]style.left = 210 + 'px';
+    thumbnails[5]style.top = 219 + 'px';
+    thumbnails[5]style.left = 430 + 'px';
+    thumbnails[6]style.top = 219 + 'px';
+    thumbnails[6]style.left = 650 + 'px';
+    thumbnails[7]style.top = 219 + 'px';
+    thumbnails[7]style.left = 870 + 'px';
+    thumbnails[8]style.top = 373 + 'px';
+    thumbnails[8]style.left = 210 + 'px';
+    thumbnails[9].style.top = 373 + 'px';
+    thumbnails[9].style.left = 430 + 'px';
+    thumbnails[10].style.top = 373 + 'px';
+    thumbnails[10].style.left = 650 + 'px';
+    thumbnails[11].style.top = 373 + 'px';
+    thumbnails[11].style.left = 870 + 'px';
     return false;
 }
 
 function dragElement(elmnt) {
   var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+    
   if (document.getElementById(elmnt.id)) {
     document.getElementById(elmnt.id).onmousedown = dragMouseDown;
   } else {
