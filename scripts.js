@@ -11,30 +11,42 @@ dragElement(document.getElementById("th_10"));
 dragElement(document.getElementById("th_11"));
 dragElement(document.getElementById("th_12"));
 
-document.getElementById('th_1').style.top = randomNr1() + 'px';
-document.getElementById('th_1').style.left = randomNr2() + 'px';
-document.getElementById('th_2').style.top = randomNr1() + 'px';
-document.getElementById('th_2').style.left = randomNr2() + 'px';
-document.getElementById('th_3').style.top = randomNr1() + 'px';
-document.getElementById('th_3').style.left = randomNr2() + 'px';
-document.getElementById('th_4').style.top = randomNr1() + 'px';
-document.getElementById('th_4').style.left = randomNr2() + 'px';
-document.getElementById('th_5').style.top = randomNr1() + 'px';
-document.getElementById('th_5').style.left = randomNr2() + 'px';
-document.getElementById('th_6').style.top = randomNr1() + 'px';
-document.getElementById('th_6').style.left = randomNr2() + 'px';
-document.getElementById('th_7').style.top = randomNr1() + 'px';
-document.getElementById('th_7').style.left = randomNr2() + 'px';
-document.getElementById('th_8').style.top = randomNr1() + 'px';
-document.getElementById('th_8').style.left = randomNr2() + 'px';
-document.getElementById('th_9').style.top = randomNr1() + 'px';
-document.getElementById('th_9').style.left = randomNr2() + 'px';
-document.getElementById('th_10').style.top = randomNr1() + 'px';
-document.getElementById('th_10').style.left = randomNr2() + 'px';
-document.getElementById('th_11').style.top = randomNr1() + 'px';
-document.getElementById('th_11').style.left = randomNr2() + 'px';
-document.getElementById('th_12').style.top = randomNr1() + 'px';
-document.getElementById('th_12').style.left = randomNr2() + 'px';
+shuffleThumbnails();
+
+function shuffleThumbnails() {
+    document.getElementById('th_1').style.top = randomNr1() + 'px';
+    document.getElementById('th_1').style.left = randomNr2() + 'px';
+    document.getElementById('th_2').style.top = randomNr1() + 'px';
+    document.getElementById('th_2').style.left = randomNr2() + 'px';
+    document.getElementById('th_3').style.top = randomNr1() + 'px';
+    document.getElementById('th_3').style.left = randomNr2() + 'px';
+    document.getElementById('th_4').style.top = randomNr1() + 'px';
+    document.getElementById('th_4').style.left = randomNr2() + 'px';
+    document.getElementById('th_5').style.top = randomNr1() + 'px';
+    document.getElementById('th_5').style.left = randomNr2() + 'px';
+    document.getElementById('th_6').style.top = randomNr1() + 'px';
+    document.getElementById('th_6').style.left = randomNr2() + 'px';
+    document.getElementById('th_7').style.top = randomNr1() + 'px';
+    document.getElementById('th_7').style.left = randomNr2() + 'px';
+    document.getElementById('th_8').style.top = randomNr1() + 'px';
+    document.getElementById('th_8').style.left = randomNr2() + 'px';
+    document.getElementById('th_9').style.top = randomNr1() + 'px';
+    document.getElementById('th_9').style.left = randomNr2() + 'px';
+    document.getElementById('th_10').style.top = randomNr1() + 'px';
+    document.getElementById('th_10').style.left = randomNr2() + 'px';
+    document.getElementById('th_11').style.top = randomNr1() + 'px';
+    document.getElementById('th_11').style.left = randomNr2() + 'px';
+    document.getElementById('th_12').style.top = randomNr1() + 'px';
+    document.getElementById('th_12').style.left = randomNr2() + 'px';
+    return false;
+}
+ 
+//colorizeButton.onclick = function() {
+// document.getElementById('th_1').style.animation-name = "colorize";
+// document.getElementById('th_1').style.animation-duration= "2s";
+// document.getElementById('th_1').style.animation-fill-mode: "forwards";
+// return false;
+//}
 
 function dragElement(elmnt) {
   var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
@@ -87,8 +99,8 @@ function randomNr2(){
 
 window.onload = function() {
   var orderButton = document.getElementById("order");
-  var shuffleButton = document.getElementById("shuffle");
-  var colorizeButton = document.getElementById("colorize");
+  //var shuffleButton = document.getElementById("shuffle");
+  //var colorizeButton = document.getElementById("colorize");
   orderButton.onclick = function() {
     document.getElementById('th_1').style.top = 65 + 'px';
     document.getElementById('th_1').style.left = 210 + 'px';
@@ -114,39 +126,6 @@ window.onload = function() {
     document.getElementById('th_11').style.left = 650 + 'px';
     document.getElementById('th_12').style.top = 373 + 'px';
     document.getElementById('th_12').style.left = 870 + 'px';
-    return false;
-  }
-  shuffleButton.onclick = function() {
-    document.getElementById('th_1').style.top = randomNr1() + 'px';
-    document.getElementById('th_1').style.left = randomNr2() + 'px';
-    document.getElementById('th_2').style.top = randomNr1() + 'px';
-    document.getElementById('th_2').style.left = randomNr2() + 'px';
-    document.getElementById('th_3').style.top = randomNr1() + 'px';
-    document.getElementById('th_3').style.left = randomNr2() + 'px';
-    document.getElementById('th_4').style.top = randomNr1() + 'px';
-    document.getElementById('th_4').style.left = randomNr2() + 'px';
-    document.getElementById('th_5').style.top = randomNr1() + 'px';
-    document.getElementById('th_5').style.left = randomNr2() + 'px';
-    document.getElementById('th_6').style.top = randomNr1() + 'px';
-    document.getElementById('th_6').style.left = randomNr2() + 'px';
-    document.getElementById('th_7').style.top = randomNr1() + 'px';
-    document.getElementById('th_7').style.left = randomNr2() + 'px';
-    document.getElementById('th_8').style.top = randomNr1() + 'px';
-    document.getElementById('th_8').style.left = randomNr2() + 'px';
-    document.getElementById('th_9').style.top = randomNr1() + 'px';
-    document.getElementById('th_9').style.left = randomNr2() + 'px';
-    document.getElementById('th_10').style.top = randomNr1() + 'px';
-    document.getElementById('th_10').style.left = randomNr2() + 'px';
-    document.getElementById('th_11').style.top = randomNr1() + 'px';
-    document.getElementById('th_11').style.left = randomNr2() + 'px';
-    document.getElementById('th_12').style.top = randomNr1() + 'px';
-    document.getElementById('th_12').style.left = randomNr2() + 'px';
-    return false;
-  }
-  colorizeButton.onclick = function() {
-    document.getElementById('th_1').style.animation-name = "colorize";
-    document.getElementById('th_1').style.animation-duration= "2s";
-    document.getElementById('th_1').style.animation-fill-mode: "forwards";
     return false;
   }
 }
