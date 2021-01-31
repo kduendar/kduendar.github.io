@@ -31,7 +31,7 @@ body {
 
 #controls {
   position: fixed;
-  bottom: 70px;
+  top: 70px;
   right: 55px;
   margin: 0px;
   padding: 0px;
