@@ -113,24 +113,23 @@ function randomNr2(){
 	return x;
 }
 
-//var shuffleButton = document.getElementById("shuffle");
-var orderButton = document.getElementById("order");
-//var colorizeButton = document.getElementById("colorize");
-//var resetButton = document.getElementById("reset");
-
-/*
+var shuffleButton = document.getElementById("shuffle");
 shuffleButton.onclick = function() {
-	shuffleThumbnails()
+	shuffleThumbnails();
 	return false;
 }
-*/
 
+
+var orderButton = document.getElementById("order");
 orderButton.onclick = function() {
-	orderThumbnails()
+	orderThumbnails();
 	return false;
 }
 
 /*
+var colorizeButton = document.getElementById("colorize");
+var resetButton = document.getElementById("reset");
+
 colorizeButton.onclick = function() {
 	document.getElementsByClassName("thumbnail").style.filter: "grayscale(0%)";
 	document.getElementsByClassName("thumbnail").setAttribute("style", "-webkit-filter:grayscale(0%)");
