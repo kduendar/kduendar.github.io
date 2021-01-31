@@ -113,15 +113,15 @@ function randomNr2(){
 	return x;
 }
 
-var shuffleButton = document.getElementById("shuffle");
+//var shuffleButton = document.getElementById("shuffle");
 var orderButton = document.getElementById("order");
 var colorizeButton = document.getElementById("colorize");
 var resetButton = document.getElementById("reset");
 
-shuffleButton.onclick = function() {
+/*shuffleButton.onclick = function() {
 	shuffleThumbnails()
 	return false;
-}
+}*/
 
 orderButton.onclick = function() {
 	orderThumbnails()
