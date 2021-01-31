@@ -31,8 +31,8 @@ body {
 
 #controls {
   position: fixed;
-  top: 350px;
-  left: 55px;
+  bottom: 70px;
+  right: 55px;
   margin: 0px;
   padding: 0px;
   line-height: 185%;
