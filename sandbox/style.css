@@ -79,7 +79,7 @@ a:hover {
 
 
 #content {
-  min-height: 600px;
+  min-height: 1000px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
