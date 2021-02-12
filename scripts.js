@@ -131,7 +131,18 @@ orderButton.onclick = function() {
 var colorizeButton = document.getElementById("colorize");
 
 colorizeButton.onclick = function() {
-	element.className = element.className.replace(/thumbnail/, 'thumbnail-colored')
+	document.getElementById('th_1').style.filter = 'grayscale(0%)';
+	document.getElementById('th_2').style.filter = 'grayscale(0%)';
+	document.getElementById('th_3').style.filter = 'grayscale(0%)';
+	document.getElementById('th_4').style.filter = 'grayscale(0%)';
+	document.getElementById('th_5').style.filter = 'grayscale(0%)';
+	document.getElementById('th_6').style.filter = 'grayscale(0%)';
+	document.getElementById('th_7').style.filter = 'grayscale(0%)';
+	document.getElementById('th_8').style.filter = 'grayscale(0%)';
+	document.getElementById('th_9').style.filter = 'grayscale(0%)';
+	document.getElementById('th_10').style.filter = 'grayscale(0%)';
+	document.getElementById('th_11').style.filter = 'grayscale(0%)';
+	document.getElementById('th_12').style.filter = 'grayscale(0%)';
 	return false;
 }
 
