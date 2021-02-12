@@ -66,6 +66,15 @@ body {
 }
 */
 
+
+thumbnail-colored {
+  position: absolute;
+  animation-name: colorize;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  cursor: pointer;
+}
+
 #th_1 {
   position: absolute;
 }
