@@ -131,8 +131,7 @@ orderButton.onclick = function() {
 var colorizeButton = document.getElementById("colorize");
 
 colorizeButton.onclick = function() {
-	document.getElementsByClassName("thumbnail").setAttribute("style", "-webkit-filter:grayscale(0%)");
-	document.getElementsByClassName("thumbnail").setAttribute("style", "filter:grayscale(0%)");
+	document.getElementsByClassName("thumbnail").style.cssText = "position: absolute; -webkit-filter:grayscale(0%); filter:grayscale(0%); cursor: pointer;";
 	return false;
 }
 
