@@ -8,9 +8,10 @@ My website uses 3 different domainnames and services.
 - For a photography portfolio I am using Cargo Collective.
 - For my blog I am using Tumblr.
 
-All interfaces are designed using CSS to match each other in terms of look, feel and use.
+To maintain visual unity among the 3, I see separate css files.
 
 Feel free to inspect or use the code.
+
 I would appreciate if you don't copy the design completely, but go for it if you really like it.
 
 Images on my website and blog are my own work. If you want to use any of the images, please contact me.
