@@ -46,9 +46,10 @@ body {
 
 /* IMAGES */
 
+/*
 .thumbnail {
   position: absolute;
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
   cursor: pointer;
 }
@@ -59,69 +60,168 @@ body {
   animation-fill-mode: forwards;
 }
 
-/*
 .thumbnail:nohover {
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
 */
 
-
-thumbnail-colored {
-  position: absolute;
-  animation-name: colorize;
-  animation-duration: 2s;
-  animation-fill-mode: forwards;
-  cursor: pointer;
-}
-
 #th_1 {
   position: absolute;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  cursor: pointer;
 }
 
 #th_2 {
   position: absolute;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  cursor: pointer;
 }
 
 #th_3 {
   position: absolute;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  cursor: pointer;
 }
 
 #th_4 {
   position: absolute;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  cursor: pointer;
 }
 
 #th_5 {
   position: absolute;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  cursor: pointer;
 }
 
 #th_6 {
   position: absolute;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  cursor: pointer;
 }
 
 #th_7 {
   position: absolute;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  cursor: pointer;
 }
 
 #th_8 {
   position: absolute;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  cursor: pointer;
 }
 
 #th_9 {
   position: absolute;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  cursor: pointer;
 }
 
 #th_10 {
   position: absolute;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  cursor: pointer;
 }
 
 #th_11 {
   position: absolute;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  cursor: pointer;
 }
 
 #th_12 {
   position: absolute;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  cursor: pointer;
 }
+
+#th_1:hover {
+  animation-name: colorize;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+#th_2:hover {
+  animation-name: colorize;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+#th_3:hover {
+  animation-name: colorize;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+#th_4:hover {
+  animation-name: colorize;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+#th_5:hover {
+  animation-name: colorize;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+#th_6:hover {
+  animation-name: colorize;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+#th_7:hover {
+  animation-name: colorize;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+#th_8:hover {
+  animation-name: colorize;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+#th_9:hover {
+  animation-name: colorize;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+#th_10:hover {
+  animation-name: colorize;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+#th_11:hover {
+  animation-name: colorize;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+#th_12:hover {
+  animation-name: colorize;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
 
 #profile_pic {
   max-width: 450px;
