@@ -126,16 +126,18 @@ orderButton.onclick = function() {
 	return false;
 }
 
-/*
+
+
 var colorizeButton = document.getElementById("colorize");
-var resetButton = document.getElementById("reset");
 
 colorizeButton.onclick = function() {
-	document.getElementsByClassName("thumbnail").style.filter: "grayscale(0%)";
 	document.getElementsByClassName("thumbnail").setAttribute("style", "-webkit-filter:grayscale(0%)");
 	document.getElementsByClassName("thumbnail").setAttribute("style", "filter:grayscale(0%)");
 	return false;
 }
+
+/*
+var resetButton = document.getElementById("reset");
 
 resetButton.onclick = function() {
 	document.getElementsByClassName("thumbnail").style.filter: "grayscale(0%)";
