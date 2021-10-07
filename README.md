@@ -1,7 +1,7 @@
 # Personal Website
 
 You can reach the website at 
-https://kivancdundar.github.io/
+https://kdundar.github.io/
 
 My website uses 3 different platforms:
 - I have coded the homepage using HTML, CSS, and Java on GitHub.
